@@ -1,0 +1,22 @@
+@use "../../styles/partials/colors";
+
+.contestant-nav-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: 1px solid colors.$active-background;
+    padding: 0.5rem;
+
+    &--selected {
+        background-color: colors.$active-background;
+    }
+
+    &__image {
+        height: 5rem;
+        width: 5rem;
+        margin-right: 0.5rem;
+        object-fit: cover;
+        object-position: top;
+    }
+}

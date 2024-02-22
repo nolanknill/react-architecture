@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Jaida Essence Hall",
+    "hometown": "Milwaukee, Wisconsin",
+    "country": "USA",
+    "age": 34,
+    "originalSeason": "Season 12",
+    "rating": 9.6,
+    "image_src": "https://i.redd.it/ujtsq0x948v41.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Shea Couleé",
+    "hometown": "Chicago, Illinois",
+    "country": "USA",
+    "age": 32,
+    "originalSeason": "Season 9",
+    "rating": 9.8,
+    "image_src": "https://people.com/thmb/4h35YwvGV0sTY0VgRv_mWeEyx_o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(489x149:491x151)/shea-coulee-drag-race-all-stars-080422-778de3846e9e49328a0f862c3f2e20a1.jpg"
+  },
+  {
+    "id": 3,
+    "image_src": "https://upload.wikimedia.org/wikipedia/commons/3/31/RuPaul_with_All_Stars_7_Contestants_at_LA_DragCon_2022_by_dvsross_%28crop_-_The_Vivienne%29.jpg",
+    "name": "The Vivienne",
+    "hometown": "Liverpool",
+    "country": "UK",
+    "age": 25,
+    "originalSeason": "UK Series 1",
+    "rating": 9.5
+  },
+  {
+    "id": 4,
+    "name": "Monét X Change",
+    "hometown": "New York City, New York",
+    "country": "USA",
+    "age": 31,
+    "originalSeason": "Season 10",
+    "rating": 9.7,
+    "image_src": "https://ew.com/thmb/LkRlw2Bf6JMJph9ZKkzm0kCXAF0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Monet-X-Change_473921-3c01596476014146b2e4939e8d46328b.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Yvie Oddly",
+    "hometown": "Denver, Colorado",
+    "country": "USA",
+    "age": 28,
+    "originalSeason": "Season 11",
+    "rating": 9.4,
+    "image_src": "https://dragqueenhq.com/wp-content/uploads/2019/06/Yyvie_Oddly-promo-e1560879516308.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Brooke Lynn Hytes",
+    "hometown": "Toronto, Ontario",
+    "country": "Canada",
+    "age": 37,
+    "originalSeason": "Season 11",
+    "rating": 9.8,
+    "image_src": "https://mediaslide-us.storage.googleapis.com/p1m/pictures/670/1055/large-1683751529-b75bdd9ad605e4bf1234e695b6c6acff.jpg"
+  }
+]
