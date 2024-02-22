@@ -1,5 +1,4 @@
 # React Review
-React
 
     - Components
     
@@ -19,6 +18,9 @@ React
     - State
         - hooks
     
+    - Event Handlers
+
+```
 function Contestant() {
     const [activeId, setActiveId] = useState(1);
 
@@ -30,21 +32,22 @@ function Contestant() {
         <h1 onClick={handleClick}>Active ID {activeId}</h1>
     )
 }
-
-    - Event Handler
+```
 
 
 ## Planning
 
 - Components
-    App
-      state: activeContestant
-      import contestants.json
-      function updateActiveContestant ( id ) {
-        setActiveContestant
-      }
+    - App
+        - state: activeContestant
+        import contestants.json
+        - ```
+            function updateActiveContestant ( id ) {
+              setActiveContestant
+            }
+        ```
 
-        ContestantsList
+        -ContestantsList
           prop: contestants - array
           prop: activeContestant
           prop: updateActiveContestant
@@ -65,7 +68,9 @@ function Contestant() {
           prop: rating
           prop: image
 
+```
 function ContestantDetails( {contestant} ) {
     const { name, age, rating, image, season } = contestant;
 
 }
+```
