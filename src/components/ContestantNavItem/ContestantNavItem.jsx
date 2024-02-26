@@ -1,18 +1,12 @@
 import "./ContestantNavItem.scss";
+import { Link } from "react-router-dom";
 
-function ContestantNavItem({ contestant, isActive, updateActiveContestant }) {
-    let className = "contestant-nav-item";
-    if (isActive) {
-        className += " contestant-nav-item--selected";
-    }
-
-    const handleClick = () => {
-        updateActiveContestant(contestant.id);
-    }
-
+function ContestantNavItem({ contestant }) {
     return (
-        <li onClick={handleClick} className={className}>
-            <img className="contestant-nav-item__image" src={contestant.image_src} alt={contestant.name} /> {contestant.name}
+        <li className="contestant-nav-item">
+            <Link className="contestant-nav-item__link" to={`/contestants/${contestant.id}`}>
+                <img className="contestant-nav-item__image" src={contestant.image_src} alt={contestant.name} /> {contestant.name}
+            </Link>
         </li>
     );
 }

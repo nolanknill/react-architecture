@@ -1,12 +1,17 @@
 @use "../../styles/partials/colors";
 
 .contestant-nav-item {
-    display: flex;
-    align-items: center;
     margin-bottom: 1rem;
-    cursor: pointer;
-    border: 1px solid colors.$active-background;
-    padding: 0.5rem;
+    border: 2px solid colors.$active-background;
+
+    &__link {
+        text-decoration: none;
+        color: #000;
+        width: 100%;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+    }
 
     &--selected {
         background-color: colors.$active-background;
